@@ -5,7 +5,7 @@ function Patient() {
   const patientData = useLoaderData();
   console.log(patientData);
   return (
-    <div>
+    <div className="md:px-30">
       <h2 className="text-[42px] text-center mt-8 font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">
         Patient Details
       </h2>

@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="flex flex-col gap-8 items-center">
+    <div className="flex flex-col gap-8 items-center md:px-30">
       <h1 className="text-[42px] text-center mt-8 font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">
         JARURAT CARE
       </h1>
