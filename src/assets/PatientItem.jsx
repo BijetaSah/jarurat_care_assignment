@@ -3,22 +3,23 @@ import { FaUserAlt } from "react-icons/fa";
 function PatientItem({ patient }) {
   const { firstName, lastName, gender, age } = patient;
   return (
-    <div className="flex items-center">
-      <div className="h-50 w-50 bg-gray-400 ">
+    <div className="flex items-center space-y-2">
+      <div className="h-40 w-40 bg-gray-300 flex items-center justify-center">
         {" "}
-        <FaUserAlt />
+        <FaUserAlt className="text-[2.4rem] text-gray-400" />
       </div>
       {/* details */}
-      <div></div>
-      <h3>
-        {firstName} {lastName}{" "}
-      </h3>
-      <p>
-        Gender : <span> {gender}</span>
-      </p>
-      <p>
-        Natinality: <span>{age}</span>
-      </p>
+      <div>
+        <h3 className="text-xl font-bold">
+          {firstName} {lastName}{" "}
+        </h3>
+        <p className="text-sm">
+          Gender : <span className="font-semibold text-sm"> {gender}</span>
+        </p>
+        <p className="text-sm">
+          Age: <span className="font-semibold text-sm">{age}</span>
+        </p>
+      </div>
     </div>
   );
 }
