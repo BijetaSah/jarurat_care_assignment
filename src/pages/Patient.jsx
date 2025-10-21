@@ -1,9 +1,10 @@
 import { useLoaderData } from "react-router-dom";
-import PatientItem from "./assets/PatientItem";
+import PatientItem from "../components/PatientItem";
+import Loader from "../ui/Loader";
 
 function Patient() {
   const patientData = useLoaderData();
-  console.log(patientData);
+
   return (
     <div className="md:px-30">
       <h2 className="text-[42px] text-center mt-8 font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">
