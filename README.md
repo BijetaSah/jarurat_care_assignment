@@ -1,12 +1,53 @@
-# React + Vite
+🌟 React Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a frontend assignment built using React and Tailwind CSS. It fetches and displays data from a dummy API, demonstrating responsive design, reusable components, and clean UI implementation.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚡ Built with React (functional components + hooks)
 
-## Expanding the ESLint configuration
+🎨 Styled using Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌐 Data fetched dynamically from a dummy API
+
+📱 Fully responsive layout
+
+🧩 Clean and modular folder structure
+
+🛠️ Tech Stack
+
+React — Frontend library
+
+Tailwind CSS — Utility-first CSS framework
+
+Fetch API — For data fetching
+
+Vite
+
+📦 Setup Instructions
+
+Follow these steps to run the project locally 👇
+
+1. Clone the repository
+   git clone https://github.com/BijetaSah/jarurat_care_assignment.git
+
+2. Navigate into the project directory
+   cd jarurat_care_assignment
+
+3. Install dependencies
+   npm install
+
+4. Run the development server
+   npm run dev
+
+5. Open in browser
+
+🌐 API Used
+
+This project fetches data from a dummy API (e.g., JSONPlaceholder
+or DummyJSON
+).
+
+Example endpoint:
+
+https://dummyjson.com/users
