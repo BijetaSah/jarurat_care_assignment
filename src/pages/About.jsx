@@ -2,11 +2,11 @@ function About() {
   return (
     <div className="">
       <img src="hero_jarurat.png" alt="Image of Jarurat Volunteer" />
-      <div className="md:px-30 flex flex-col gap-5 items-center md:py-10">
+      <div className="p-6 lg:px-30 flex flex-col gap-5 items-center lg:py-10">
         <h1 className="text-[42px] text-center font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">
           About Us
         </h1>
-        <p className="text-center mt-2 text-lg">
+        <p className="text-center mt-2 lg:text-lg">
           At Jarurat Care Foundation, we understand that facing cancer can be
           overwhelming, and no one should have to go through it alone. That’s
           why we’ve made it our mission to stand by those affected by cancer,

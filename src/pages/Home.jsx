@@ -2,11 +2,11 @@ import { Outlet } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="flex flex-col gap-8 items-center md:px-30">
+    <div className="flex flex-col gap-8 items-center lg:px-30 p-5">
       <h1 className="text-[42px] text-center mt-8 font-bold bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">
         JARURAT CARE
       </h1>
-      <p className="text-center mt-2 text-lg">
+      <p className="text-center mt-2 md:text-lg ">
         At Jarurat Care, we are dedicated to supporting cancer patients and
         their families in their fight against cancer. Our mission is to provide
         care, guidance, and resources to help patients navigate treatment and
