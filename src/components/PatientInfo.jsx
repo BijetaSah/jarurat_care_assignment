@@ -70,7 +70,7 @@ function PatientInfo() {
 
 async function getUserInfo(id) {
   const res = await fetch(`https://dummyjson.com/users/${id}`);
-  if (!res.ok) throw Error("Something went wrong");
+  if (!res.ok) throw Error("Failed fetching patient personal info");
   const data = await res.json();
   return data;
 }

@@ -17,14 +17,21 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <AppLayout />,
+    errorElement: <Error />,
     children: [
-      { index: true, element: <Home /> },
-      { path: "/about", element: <About /> },
-      { path: "/patient", element: <Patient />, loader: patientLoader },
+      { index: true, element: <Home />, errorElement: <Error /> },
+      { path: "/about", element: <About />, errorElement: <Error /> },
+      {
+        path: "/patient",
+        element: <Patient />,
+        loader: patientLoader,
+        errorElement: <Error />,
+      },
       {
         path: "/patient/:patientId",
         element: <PatientInfo />,
         loader: patientInfoLoader,
+        errorElement: <Error />,
       },
     ],
   },
